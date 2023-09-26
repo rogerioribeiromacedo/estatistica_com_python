@@ -1,0 +1,30 @@
+# This file was created Fri Nov 29 09:29:58 2019
+# Created by:
+#                  :-) GROMACS - gmx sigeps, VERSION 5.1.4 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Command line:
+#   gmx sigeps teste.xvg -o saida.xvg
+# gmx sigeps is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Potential"
+@    xaxis  label "r (nm)"
+@    yaxis  label "E (kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Lennard-Jones"
+@ s1 legend "Buckingham"
+     1     10
+     2     4
+     3     6
+     4     5
+     5     8
+     6     4
