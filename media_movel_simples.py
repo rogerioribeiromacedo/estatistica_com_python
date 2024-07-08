@@ -84,7 +84,7 @@ def moving_average(data, period):
     data_ma = []
     data = list(data)
     values = [0 for i in range(0, period)] + list(data[1])
-    print(values)
+    # print(values)
     start = 0
     end = period
     for step in data[0]:
@@ -116,7 +116,7 @@ def save_data(data):
             print(f"{i[0]} {i[1]}\n")
             f_ma_xvg.write(f"{i[0]} {i[1]}\n")
 
-    print(" + File saved!")
+    print(" + File 'moving_average.xvg' saved!")
 
 
 def main():
